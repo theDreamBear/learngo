@@ -20,7 +20,7 @@ type Fab func() int
 
 func (fa Fab) Read(p []byte) (n int, err error) {
 	next := fa()
-	if next > 1000 {
+	if next > 10000000000000 {
 		return 0, io.EOF
 	}
 	s := fmt.Sprintf("%d\n", next)

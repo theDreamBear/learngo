@@ -1,13 +1,13 @@
-package main
+package container
 
 import "fmt"
 
 func initMap() {
 	var m map[string]int
-	if s, err := m["bai"];err == false {
+	if s, err := m["bai"]; err == false {
 		fmt.Println(1)
 	} else {
-		fmt.Println(2,s)
+		fmt.Println(2, s)
 	}
 }
 
