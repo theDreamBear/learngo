@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f4c26cb-be98-464a-a684-81ec13f0be5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/errorhandling/err/errTest/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/errorhandling/err/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/benchmarks/funcbench.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/benchmarks/funcbench_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/normalTest/add_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/normalTest/adds.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/normalTest/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/test1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../primary/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../primary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../primary/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../primary/.idea/primary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../primary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../primary/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,20 +22,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/learngo$Test_add_in_tests_normalTest.out" NAME="Test_add in tests/normalTest Coverage Results" MODIFIED="1548645029082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/learngo$BenchmarkSubstr_in_tests_benchmarks.out" NAME="BenchmarkSubstr in tests/benchmarks Coverage Results" MODIFIED="1548656366925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myElementSize" value="166" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/errorhandling/filelistingserver/web.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-              <folding>
-                <element signature="e#14#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/functional/main.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,70 +42,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/errorhandling/defer/defers.go">
+        <entry file="file://$PROJECT_DIR$/src/tests/normalTest/add_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#20#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/net/http/server.go">
+        <entry file="file://$PROJECT_DIR$/src/tests/benchmarks/funcbench.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="2404" column="23" selection-start-line="2404" selection-start-column="23" selection-end-line="2404" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/errorhandling/err/errors.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/newnode.go">
+        <entry file="file://$PROJECT_DIR$/src/tests/benchmarks/funcbench_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="210">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/errorhandling/err/errTest/test.go">
+        <entry file="file://$PROJECT_DIR$/src/tests/normalTest/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/builtin/builtin.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="254" column="9" selection-start-line="254" selection-start-column="9" selection-end-line="254" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/errorhandling/filelistingserver/filelisting/handler.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding>
-                <element signature="e#21#62#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -149,6 +125,16 @@
         <option value="$PROJECT_DIR$/src/errorhandling/filelistingserver/web.go" />
         <option value="$PROJECT_DIR$/src/errorhandling/err/errors.go" />
         <option value="$PROJECT_DIR$/src/errorhandling/err/errTest/test.go" />
+        <option value="$PROJECT_DIR$/src/tests/normalTest/hello_test.go" />
+        <option value="$PROJECT_DIR$/src/tests/normalTest/add_test.go" />
+        <option value="$PROJECT_DIR$/src/tests/normalTest/adds.go" />
+        <option value="$PROJECT_DIR$/src/tests/normalTest/main.go" />
+        <option value="$PROJECT_DIR$/src/tests/test1.go" />
+        <option value="$PROJECT_DIR$/src/tests/funcbench.go" />
+        <option value="$PROJECT_DIR$/src/tests/benchmarks/bench_test.go" />
+        <option value="$PROJECT_DIR$/src/tests/benchmarks/longestnorepeating_test.go" />
+        <option value="$PROJECT_DIR$/src/tests/benchmarks/funcbench_test.go" />
+        <option value="$PROJECT_DIR$/src/tests/benchmarks/funcbench.go" />
       </list>
     </option>
   </component>
@@ -194,8 +180,14 @@
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="errorhandling" type="462c0819:PsiDirectoryNode" />
-              <item name="err" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmarks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,10 +213,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests/benchmarks" />
+      <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src/container" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/duckTyping/operator" />
@@ -242,28 +237,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build test.go">
-    <configuration name="go build binarytree.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkSubstr in tests/benchmarks">
+    <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/binarytree/binarytree.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build defers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/errorhandling/defer/defers.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/functional/main.go" />
+      <filePath value="$PROJECT_DIR$/src/tests/test1.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -275,23 +254,80 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build web.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkSubstr in tests/benchmarks" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/errorhandling/filelistingserver/web.go" />
+      <working_directory value="$PROJECT_DIR$/src/tests/benchmarks" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="tests/benchmarks" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkSubstr$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Benchmark_LongestNoRepeating in tests/benchmarks" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/src/tests/benchmarks" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="tests/benchmarks" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Benchmark_LongestNoRepeating$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_add in tests/normalTest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/src/tests/normalTest" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="tests/normalTest" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_add$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkSubstr in tests/benchmarks" />
+        <item itemvalue="Go Test.Benchmark_LongestNoRepeating in tests/benchmarks" />
+        <item itemvalue="Go Build.go build test1.go" />
+        <item itemvalue="Go Test.Test_add in tests/normalTest" />
         <item itemvalue="Go Build.go build test.go" />
-        <item itemvalue="Go Build.go build web.go" />
-        <item itemvalue="Go Build.go build defers.go" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build binarytree.go (1)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test_add_in_tests_normalTest - 2019.01.28 at 10h 58m 18s.xml">
+      <configuration name="Test_add in tests/normalTest" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_add_in_tests_normalTest - 2019.01.28 at 11h 01m 34s.xml">
+      <configuration name="Test_add in tests/normalTest" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_add_in_tests_normalTest - 2019.01.28 at 11h 08m 37s.xml">
+      <configuration name="Test_add in tests/normalTest" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_add_in_tests_normalTest - 2019.01.28 at 11h 08m 55s.xml">
+      <configuration name="Test_add in tests/normalTest" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_add_in_tests_normalTest - 2019.01.28 at 11h 10m 29s.xml">
+      <configuration name="Test_add in tests/normalTest" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_tests_benchmarks - 2019.01.28 at 14h 19m 10s.xml">
+      <configuration name="BenchmarkSubstr in tests/benchmarks" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_tests_benchmarks - 2019.01.28 at 14h 19m 28s.xml">
+      <configuration name="BenchmarkSubstr in tests/benchmarks" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_tests_benchmarks - 2019.01.28 at 14h 22m 49s.xml">
+      <configuration name="BenchmarkSubstr in tests/benchmarks" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_tests_benchmarks - 2019.01.28 at 14h 23m 07s.xml">
+      <configuration name="BenchmarkSubstr in tests/benchmarks" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_tests_benchmarks - 2019.01.28 at 15h 28m 20s.xml">
+      <configuration name="BenchmarkSubstr in tests/benchmarks" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,9 +341,10 @@
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="767" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28645065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29086894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.3288889" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
@@ -318,8 +355,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3288889" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27555555" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27555555" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.17746687" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -335,7 +373,8 @@
     </ignored-roots>
     <MESSAGE value="test" />
     <MESSAGE value="Fabnacci" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fabnacci" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/fmt/print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/duckTyping/calculator/newCalculator.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -490,12 +522,12 @@
         <state relative-caret-position="-66" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/functional/fabnocci/fabonacci.go">
+    <entry file="file://$PROJECT_DIR$/src/errorhandling/filelistingserver/web.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="375">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
-            <element signature="e#18#41#0" expanded="true" />
+            <element signature="e#14#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -507,44 +539,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/functional/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/errorhandling/filelistingserver/web.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="e#14#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/errorhandling/filelistingserver/filelisting/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="e#21#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="35715">
           <caret line="2404" column="23" selection-start-line="2404" selection-start-column="23" selection-end-line="2404" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+    <entry file="file://$PROJECT_DIR$/src/errorhandling/err/errors.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="254" column="9" selection-start-line="254" selection-start-column="9" selection-end-line="254" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/newnode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -558,17 +570,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/errorhandling/err/errors.go">
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="490">
+          <caret line="254" column="9" selection-start-line="254" selection-start-column="9" selection-end-line="254" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/newnode.go">
+    <entry file="file://$PROJECT_DIR$/src/errorhandling/filelistingserver/filelisting/handler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="330">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#21#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/normalTest/c.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functional/fabnocci/fabonacci.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/normalTest/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/normalTest/adds.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functional/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/normalTest/add_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#20#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/benchmarks/funcbench.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/benchmarks/funcbench_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
