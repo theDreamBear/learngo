@@ -2,22 +2,22 @@ package tree
 
 import "fmt"
 
+// tree node
 type Node struct {
-	Value int
+	Value       int
 	Left, Right *Node
 }
 
-func CreateNode(val int)(*Node){
-	return &Node{Value:val}
+func CreateNode(val int) *Node {
+	return &Node{Value: val}
 }
 
-func (node *Node)PrintNode() {
+func (node *Node) PrintNode() {
 	fmt.Printf("node value: %d\n", node.Value)
 }
 
-
 func (node *Node) Traversal() {
-	if node == nil{
+	if node == nil {
 		return
 	}
 	node.Left.Traversal()
