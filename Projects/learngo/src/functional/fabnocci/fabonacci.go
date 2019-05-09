@@ -15,8 +15,11 @@ func Fabnocci() Fab {
 	}
 }
 
-//
 type Fab func() int
+
+func (f *Fab) Next() int {
+	return (*f)()
+}
 
 func (fa Fab) Read(p []byte) (n int, err error) {
 	next := fa()

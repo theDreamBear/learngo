@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 var p *int
 
@@ -16,14 +19,12 @@ func bar() {
 	fmt.Println(*p)
 }
 
+func TimeStampToYearMonthDay(stime int64) int32 {
+	tm := time.Unix(stime, 0)
+	fmt.Println(tm.Year())
+	return 0
+}
+
 func main() {
-	//fmt.Printf("%p\n", p)
-	var err error
-	p, err = foo()
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	bar()
-	fmt.Println(*p)
+	TimeStampToYearMonthDay(1557325677)
 }
